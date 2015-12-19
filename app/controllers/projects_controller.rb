@@ -22,6 +22,22 @@ class ProjectsController < ApplicationController
 
 	end	
 
+	def edit
+
+	end	
+
+	def update
+		if @project.update project_params
+			redirect_to @project, notice: "잘햇다! 더 열심히 해서 성공하자! 계속 만들어라!"
+		else
+			render 'edit'
+		end		
+	end
+	
+	def destroy
+		@project.destroy
+			redirect_to projects_path
+	end	
 
 
 	private
