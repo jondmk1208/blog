@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pygments.rb', '~> 0.6.3'
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 gem 'friendly_id', '~> 5.1'
+gem 'will_paginate', '~> 3.0', '>= 3.0.7'
 
 
 group :development, :test do

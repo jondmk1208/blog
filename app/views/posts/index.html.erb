@@ -9,23 +9,6 @@
 		</div>
 		<% end %>
 		
-
-		<div class="post">
-			<p class="date">Friday April 10th</p>
-			<h2><a href="">The DO List</a></h2>
-			<hr>
-		</div>
-
-		<div class="post">
-			<p class="date">Friday April 10th</p>
-			<h2><a href="">The DO List</a></h2>
-			<hr>
-		</div>
-
-		<div class="pagination">
-			<span class="previous_page disabled">Previous</span>
-			<em class="current">1</em>
-			<a rel="next" href="#">2</a>
-			<a class="next_page" href="#">Next</a>
-		</div>
 	</div>
+
+	<%= will_paginate @posts %>
